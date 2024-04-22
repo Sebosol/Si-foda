@@ -11,7 +11,7 @@ public class Principal {
         ArrayList<Alunos> listasimples = new ArrayList<>();
 
         int opcao = -1;
-        while (opcao != 9);
+        while (opcao != 9){
 
         opcao = Integer.parseInt(JOptionPane.showInputDialog("Menu de Cadastro Aluno \n"
                 + "1 - Inserir (Create) \n"
@@ -90,4 +90,5 @@ public class Principal {
         }
     }
 
+}
 }
